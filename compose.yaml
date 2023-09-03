@@ -1,0 +1,15 @@
+version: '1.0'
+services:
+  computer_vision_env:
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/computer_vision_env
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
