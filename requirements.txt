@@ -1,3 +1,4 @@
 pandas
 matplotlib
 jupyterlab
+opencv-contrib-python-headless
