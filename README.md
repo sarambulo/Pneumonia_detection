@@ -1,2 +1,2 @@
-# pneumonia_detection (Work in Progress)
-Pneumonia detection using X-Rays and Convolutional Neural Networks, with a GPU enabled tensorflow Docker image 
+# Pneumonia Detection Using X-Ray Images
+In this project, we use Convolutional Neural Networks and K-Nearest Neihboors to identify which patients have pneumonia. The best model (KNN) achieved an acuraccy score of 84% on the test data. The project is developed using a GPU enabled tensorflow Docker image. The data used can be obtained from [this Kaggle link](https://www.kaggle.com/datasets/lasaljaywardena/pneumonia-chest-x-ray-dataset/download?datasetVersionNumber=1)
